@@ -1,0 +1,62 @@
+><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- -->
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Numbers in full</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Números por extenso</h1>
+      <label class="active">Informe um número</label>
+      <div class="inputData">
+        <input
+          id="inputNumber"
+          type="number"
+          step=".01"
+          placeholder="Valor em R$(xx,xx):"
+        />
+
+        <div id="selectId">
+          <div class="input-field col s12">
+            <select class="selectClass">
+              <!-- <option value="" disabled selected></option> -->
+              <option value="1">En-US</option>
+              <option value="2">Pt-BR</option>
+              <option value="3">Es-ES</option>
+            </select>
+            <label class="active">Escolha uma língua</label>
+          </div>
+        </div>
+        <a id="button" class="waves-effect waves-light btn-small">Ok</a>
+      </div>
+
+      <input
+        id="inputText"
+        type="text"
+        placeholder="Valor por extenso:"
+        readonly
+      />
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>

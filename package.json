@@ -1,0 +1,17 @@
+{
+  "name": "teste-number-in-full-multilang",
+  "version": "1.0.0",
+  "description": "An app that uses the number-in-full-multilang lib to convert into words a value in American (USD), Brazilian (BRL) or Spanish (EUR) currency, using the corresponding language of each nationality.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "RubensMario",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
