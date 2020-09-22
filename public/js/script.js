@@ -1,5 +1,4 @@
-// import { numberInFullConverter } from '../node_modules/number-in-full-multilang/index.js';
-import { numberInFullConverter } from 'number-in-full-multilang';
+import { numberInFullConverter } from '../node_modules/number-in-full-multilang/index.js';
 
 window.addEventListener('load', () => {
   const inputNumber = document.querySelector('#inputNumber');
