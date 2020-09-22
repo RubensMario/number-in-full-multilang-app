@@ -3,9 +3,9 @@ import express from 'express';
 import * as path from 'path';
 
 const app = express();
-const PORT = 3338;
+const port = process.env.PORT || 3338;
 const __dirname = path.resolve();
 
 app.use('/', express.static(path.join(__dirname, '/public')));
 
-app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}/`));
+app.listen(port, () => console.log(`Listening on http://localhost:${port}/`));
